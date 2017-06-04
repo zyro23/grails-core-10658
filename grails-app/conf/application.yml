@@ -20,6 +20,8 @@ info:
         version: '@info.app.version@'
         grailsVersion: '@info.app.grailsVersion@'
 spring:
+    aop:
+        proxy-target-class: true
     main:
         banner-mode: "off"
     groovy:
